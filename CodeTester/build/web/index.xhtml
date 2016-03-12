@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="with=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+        <link rel="stylesheet" href="css/index.css"/>
+        <title>Player</title>
+    </h:head>
+    <h:body>
+       <p:dataTable var="contents" value="#{carouselItems.medienBereichB}">
+            <p:column headerText="Name">
+                <h:outputText value="#{contents.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="#{contents.format}" />
+            </p:column>
+            <p:column headerText="AbspielZeit">
+                <h:outputText value="#{contents.abspielZeit}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="#{contents.pfad}" />
+            </p:column> 
+        </p:dataTable>     
+        <!-- <p:dataTable var="datei" value="{dateiList}">
+            <p:column headerText="Name">
+                <h:outputText value="{datei.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="{datei.type}" />
+            </p:column>
+            <p:column headerText="Grösse">
+                <h:outputText value="{datei.groesse}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="{datei.pfad}" />
+            </p:column> 
+        </p:dataTable>
+       <p:dataTable var="contents" value="{carouselItems.medienBereichB}">
+            <p:column headerText="Name">
+                <h:outputText value="{contents.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="{contents.format}" />
+            </p:column>
+            <p:column headerText="AbspielZeit">
+                <h:outputText value="{contents.abspielZeit}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="{contents.pfad}" />
+            </p:column> 
+        </p:dataTable>
+        <p:dataTable var="contents" value="{carouselItems.medienBereichC}">
+            <p:column headerText="Name">
+                <h:outputText value="{contents.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="{contents.format}" />
+            </p:column>
+            <p:column headerText="AbspielZeit">
+                <h:outputText value="{contents.abspielZeit}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="{contents.pfad}" />
+            </p:column> 
+        </p:dataTable>
+        <p:dataTable var="contents" value="{carouselItems.medienBereichD}">
+            <p:column headerText="Name">
+                <h:outputText value="{contents.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="{contents.format}" />
+            </p:column>
+            <p:column headerText="AbspielZeit">
+                <h:outputText value="{contents.abspielZeit}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="{contents.pfad}" />
+            </p:column> 
+        </p:dataTable>
+        <p:dataTable var="contents" value="{carouselItems.medienBereichE}">
+            <p:column headerText="Name">
+                <h:outputText value="{contents.name}" />
+            </p:column>            
+            <p:column headerText="Format">
+                <h:outputText value="{contents.format}" />
+            </p:column>
+            <p:column headerText="AbspielZeit">
+                <h:outputText value="{contents.abspielZeit}" />
+            </p:column> 
+            <p:column headerText="Pfad">
+                <h:outputText value="{contents.pfad}" />
+            </p:column> 
+        </p:dataTable>-->
+        <!--Javascript-->
+        <script src="scripts/bootstrap.js"></script> 
+        <script src="scripts/jquery-2.2.1.min.js"></script> 
+    </h:body>
+</html>
+

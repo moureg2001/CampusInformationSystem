@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player>
+    <playlist id="1">
+        <name>playlist1</name>
+        <bereich>A</bereich>
+        <medien>
+            <medium id="1">
+                <name>b1</name>
+                <format>jpg</format>
+                <abspielzeit>60000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="2">
+                <name>b3</name>
+                <format>jpg</format>
+                <abspielzeit>60000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="3">
+                <name>v1</name>
+                <format>mp4</format>
+                <abspielzeit>100000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="4">
+                <name>smartphone</name>
+                <format>flv</format>
+                <abspielzeit>50000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad>https://www.youtube.com/watch?v=CYv_1EqMwSY</pfad>
+            </medium>
+            <medium id="5">
+                <name>Hochschule Bibliothek</name>
+                <format>lnk</format>
+                <abspielzeit>75000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad>http://www.hochschule-bochum.de/bib/aktuelles/rss.xml</pfad>
+            </medium>
+        </medien>
+        <zeit>
+            <startzeit>
+                <datum>10-02-2016</datum>
+                <uhrzeit>10:00</uhrzeit>
+            </startzeit>
+            <endzeit>
+                <datum>20-02-2016</datum>
+                <uhrzeit>12:00</uhrzeit>
+            </endzeit>
+        </zeit>
+    </playlist>
+
+
+    <playlist id="2">
+        <name>playlist2</name>
+        <bereich>c</bereich>
+        <medien>
+            <medium id="6">
+                <name>b2</name>
+                <format>jpg</format>
+                <abspielzeit>60000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="7">
+                <name>b3</name>
+                <format>jpg</format>
+                <abspielzeit>60000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="8">
+                <name>v2</name>
+                <format>mp4</format>
+                <abspielzeit>100000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad/>
+            </medium>
+            <medium id="9">
+                <name>smartwatch</name>
+                <format>flv</format>
+                <abspielzeit>50000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad>https://www.youtube.com/watch?v=0TKk2hlsP8Q</pfad>
+            </medium>
+            <medium id="10">
+                <name>Tagesschau</name>
+                <format>lnk</format>
+                <abspielzeit>75000</abspielzeit>
+                <!-- in Sekunden -->
+                <pfad>http://www.tagesschau.de/xml/rss2</pfad>
+            </medium>
+        </medien>
+        <zeit>
+            <startzeit>
+                <datum>25-02-2016</datum>
+                <uhrzeit>10:00</uhrzeit>
+            </startzeit>
+            <endzeit>
+                <datum>02-03-2016</datum>
+                <uhrzeit>13:45</uhrzeit>
+            </endzeit>
+        </zeit>
+    </playlist>
+</player>

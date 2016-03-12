@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <p:carousel value="#{contentPlayer.selectedContent}" var="contents" itemStyle="height:500px;width:700px;text-align:center;" autoPlayInterval="#{contents.abspielZeit}" rows="1" effect="easeIn" circular="true" style="width:50%;height:450px; margin:auto;">
+            <p:panelGrid columns="2" style="width:100%;margin:10px 0px" columnClasses="label,value" styleClass="ui-panelgrid-blank">
+            <f:facet name="header">
+                <h:outputText value="#{contents.name}"/> 
+            </f:facet>
+                <!--****************Bilder Player*******************-->
+                <p:graphicImage value="#{contents.pfad}"  width="700" height="500" rendered="#{contents.isPicture}" />
+                <!--****************Video Player********************-->
+                <p:media style="z-index:-1" value="#{contents.pfad}" width="700" height="500" rendered="#{contents.isVideo}">
+                    <f:param name="autoPlay" value="false" />
+                </p:media>
+                <!--***************Text Player**********************-->
+                <h:outputText value="#{contents.pfad}" rendered="#{contents.isText}"/>
+                <!--***************RSS Player***********************-->
+                <p:feedReader value="http://rss.news.yahoo.com/rss/sports" var="feed"  rendered="#{contents.isPicture}" >
+                    <h:outputText value="#{feed.title}" style="font-weight: bold;display:block"/>
+                    <h:outputText value="#{feed.description.value}" escape="false"/>
+                    <p:separator />
+                </p:feedReader>
+                <!--***************Youtube Player*******************-->
+                <p:media value="http://www.youtube.com/v/KZnUr8lcqjo" width="700" height="500" player="flash" rendered="#{contents.isYoutube}">
+                    <f:param name="autoPlay" value="false" />
+                </p:media>
+            </p:panelGrid>   
+        </p:carousel>
+                        <p:feedReader value="http://rss.news.yahoo.com/rss/sports" var="feed"  >
+                    <h:outputText value="#{feed.title}" style="font-weight: bold;display:block"/>
+                    <h:outputText value="#{feed.description.value}" escape="false"/>
+                    <p:separator />
+                </p:feedReader>
+    </h:body>
+</html>
+

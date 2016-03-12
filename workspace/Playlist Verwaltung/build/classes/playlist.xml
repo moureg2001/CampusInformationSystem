@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist id="1">
+	<name>playlist1</name>
+	<bereich>A</bereich>
+	<medien id="1">
+		<name>b1</name>
+		<format>jpg</format>
+		<abspielzeit>60000</abspielzeit><!-- in Sekunden -->
+		<pfad></pfad>
+	</medien>
+	<medien id="3">
+		<name>b3</name>
+		<format>jpg</format>
+		<abspielzeit>60000</abspielzeit><!-- in Sekunden -->
+		<pfad></pfad>
+	</medien>
+	<medien id="6">
+		<name>v1</name>
+		<format>mp4</format>
+		<abspielzeit>100000</abspielzeit><!-- in Sekunden -->
+		<pfad></pfad>
+	</medien>
+	<medien id="2">
+		<name>smartphone</name>
+		<format>flv</format>
+		<abspielzeit>50000</abspielzeit><!-- in Sekunden -->
+		<pfad>https://www.youtube.com/watch?v=CYv_1EqMwSY</pfad>
+	</medien>
+	<medien id="8">
+		<name>Hochschule Bibliothek</name>
+		<format>lnk</format>
+		<abspielzeit>75000</abspielzeit><!-- in Sekunden -->
+		<pfad>http://www.hochschule-bochum.de/bib/aktuelles/rss.xml</pfad>
+	</medien>
+	<zeit>
+		<startzeit>
+			<datum>10-02-2016</datum>
+			<uhrzeit>10:00</uhrzeit>
+		</startzeit>
+		<endzeit>
+			<datum>20-02-2016</datum>
+			<uhrzeit>12:00</uhrzeit>
+		</endzeit>
+	</zeit>
+</playlist>

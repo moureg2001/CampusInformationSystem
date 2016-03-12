@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Medien Player</title>
+</h:head>
+<body>
+	<h1>Alle Ordner Dateien</h1>
+	
+	<p:dataTable var="datei" value="#{dateiList.ordnerDateiList}">
+		<p:column headerText="Id">
+			<h:outputText value="#{datei.id}" />
+		</p:column>
+		<p:column headerText="Name">
+			<h:outputText value="#{datei.name}" />
+		</p:column>
+		<p:column headerText="Type">
+			<h:outputText value="#{datei.type}" />
+		</p:column>
+		<p:column headerText="Grösse">
+			<h:outputText value="#{datei.groesse}" />
+		</p:column>
+		<p:column headerText="Pfad">
+			<h:outputText value="#{datei.pfad}" />
+		</p:column>
+	</p:dataTable>
+</body>
+</html>
