@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06.03.2016, 17:20:10
+    Author     : anonymous
+*/
+
+#bereichA{
+overflow: auto; 
+margin: 1%; 
+border-radius: 1%; 
+width: 64%; height: 565px; 
+top: 5%; right: 5%; bottom: 5%; left: 5%; 
+float: left; 
+clip: rect(auto, auto, auto, auto); 
+display: block; 
+cursor: auto;
+border:hidden 5px #000000;
+-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+border-radius: 18px; 
+-moz-box-shadow: 4px 17px 42px #000000;
+-webkit-box-shadow: 4px 17px 42px #000000;
+box-shadow: 4px 17px 42px #000000;
+background-color: rgba(0, 0, 0, 0.5);
+background: rgba(0, 0, 0, 0.5);
+color: rgba(0, 0, 0, 0.5);	
+
+}
+#bereichB{
+overflow: auto;
+margin: 1%; 
+border-radius: 1%; 
+width: 31%; height: 169px; 
+border:solid red; 
+top: 5%; right: 5%; bottom: 5%; left: 5%; 
+float: right; 
+clip: rect(auto, auto, auto, auto); 
+display: block;
+border:hidden 5px #000000;
+-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+border-radius: 18px; 
+-moz-box-shadow: 4px 17px 42px #000000;
+-webkit-box-shadow: 4px 17px 42px #000000;
+box-shadow: 4px 17px 42px #000000;
+background-color: rgba(215, 30, 28, 0.3);
+background: rgba(215, 30, 28, 0.3);
+color: rgba(215, 30, 28, 0.3);
+    
+}
+#bereichC{
+	border-radius: 1%; 
+	overflow: auto; 
+	margin: 1%; 
+	width: 31%; height: 169px; 
+	border:solid green; 
+	float: right; 
+	clip: rect(auto, auto, auto, auto); 
+	cursor: auto; 
+	display: block;
+	border:hidden 5px #000000;
+-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+border-radius: 18px; 
+-moz-box-shadow: 4px 17px 42px #000000;
+-webkit-box-shadow: 4px 17px 42px #000000;
+box-shadow: 4px 17px 42px #000000;
+background-color: rgba(0, 2, 255, 0.3);
+background: rgba(0, 2, 255, 0.3);
+color: rgba(0, 2, 255, 0.3);
+    
+}
+#bereichD{
+	overflow: auto; 
+	border-radius: 1%; 
+	margin: 1%; 
+	width: 31%; height: 169px; 
+	border:solid blue; 
+	float: right; 
+	clip: rect(auto, auto, auto, auto); 
+	display: block; 
+	cursor: auto;
+	border:hidden 5px #000000;
+-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+border-radius: 18px; 
+-moz-box-shadow: 4px 17px 42px #000000;
+-webkit-box-shadow: 4px 17px 42px #000000;
+box-shadow: 4px 17px 42px #000000;
+background-color: rgba(155, 77, 231, 0.3);
+background: rgba(155, 77, 231, 0.3);
+color: rgba(155, 77, 231, 0.3);
+
+}
+#bereichE{
+	margin: 1%; 
+	height: 144px; 
+	width: 98%; 
+	border:solid grey; 
+	float: left;
+	border:hidden 5px #000000;
+-moz-border-radius: 18px;
+-webkit-border-radius: 18px;
+border-radius: 18px; 
+-moz-box-shadow: 4px 17px 42px #000000;
+-webkit-box-shadow: 4px 17px 42px #000000;
+box-shadow: 4px 17px 42px #000000;
+background-color: rgba(0, 27, 55, 0.3);
+background: rgba(0, 27, 55, 0.3);
+color: rgba(0, 27, 55, 0.3);
+    
+}
